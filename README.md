@@ -54,7 +54,7 @@ Gendoc est une application web moderne et sécurisée permettant la génération
 
 ```bash
 # 1. Cloner le repository
-git clone https://github.com/votre-organisation/gendoc.git
+git clone https://github.com/GaelH-crypt/gendoc.git
 cd gendoc
 
 # 2. Rendre le script exécutable
