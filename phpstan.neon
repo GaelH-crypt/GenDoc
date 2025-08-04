@@ -1,0 +1,42 @@
+parameters:
+    level: 8
+    paths:
+        - src/
+        - tests/
+    
+    excludePaths:
+        - src/views/
+        - src/config/
+        - storage/
+        - public/uploads/
+    
+    checkMissingIterableValueType: false
+    checkGenericClassInNonGenericObjectType: false
+    
+    ignoreErrors:
+        - '#Call to an undefined method [a-zA-Z0-9\\_]+::[a-zA-Z0-9\\_]+\(\)#'
+        - '#Access to an undefined property [a-zA-Z0-9\\_]+::\$[a-zA-Z0-9\\_]+#'
+    
+    bootstrapFiles:
+        - vendor/autoload.php
+    
+    tmpDir: .phpstan
+    
+    parallel:
+        maximumNumberOfProcesses: 4
+    
+    scanFiles:
+        - src/Core/Application.php
+        - src/Core/Router.php
+    
+    scanDirectories:
+        - src/Controllers
+        - src/Services
+        - src/Models
+    
+    checkMissingCallableSignature: true
+    checkMissingIterableValueType: false
+    checkGenericClassInNonGenericObjectType: false
+    checkMissingCallableSignature: true
+    checkMissingIterableValueType: false
+    checkGenericClassInNonGenericObjectType: false 
