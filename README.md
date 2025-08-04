@@ -224,7 +224,6 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 
 ### Contact
 - **Issues** : [GitHub Issues](https://github.com/votre-organisation/gendoc/issues)
-- **Email** : support@gendoc.local
 - **Documentation** : [Wiki](https://github.com/votre-organisation/gendoc/wiki)
 
 ## 🙏 Remerciements
